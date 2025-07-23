@@ -1,75 +1,52 @@
+
+<img width="1194" height="671" alt="Screenshot 2025-07-23 223732" src="https://github.com/user-attachments/assets/cb690cac-62a3-4bd0-baad-0c1c0a639c94" />
+<img width="272" height="565" alt="Screenshot 2025-07-23 221705" src="https://github.com/user-attachments/assets/e44b08c3-6cac-4fe8-93c2-854c5150b38a" />
+<img width="272" height="815" alt="Screenshot 2025-07-23 221729" src="https://github.com/user-attachments/assets/e1c074bb-31bc-48ce-ac07-f2ea3f7103dc" />
+<img width="272" height="815" alt="Screenshot 2025-07-23 221829" src="https://github.com/user-attachments/assets/51758e48-2e63-4afa-af83-bd8aae946012" />
+
+
 📊 Power BI Dashboard + 🖥️ Interactive Website (Frontend UI)
 
 📝 Project Overview
 This project is a comprehensive solution aimed at analyzing and improving the mental well-being of students by combining the power of data visualization with an interactive front-end survey platform. It was designed as part of a real-world academic and technical initiative to collect, analyze, and present psychological and academic stress-related insights for students.
+A React-Based data-driven project designed to analyze and improve student mental health through real-time inputs and engaging visualizations.
 
-The project has two major components:
+📊 Power BI Dashboard
+Visual storytelling of key insights:
 
-💡 1. Power BI Dashboard: Data-Driven Storytelling
-A dynamic and interactive Power BI dashboard was created using real or simulated student data to:
+🔥 Heatmaps for Anxiety, Depression, Burnout
 
-📈 Track key mental health indicators like anxiety, depression, burnout, stress levels
+📍 Filters: Stream, Year, Gender, Sleep Patterns
 
-📍 Use filters (e.g., year, gender, stream, sleep patterns) for custom drill-down insights
+📉 Charts: Treemaps, Bar Graphs, Pie, Decomposition Tree
 
-📊 Represent risk scores using heatmaps, treemaps, pie charts, bar graphs, and decomposition trees
+🧠 Risk identification for timely intervention
 
-📌 Enable decision-makers (teachers, counselors, management) to identify at-risk students quickly
+🌐 Interactive Survey Website
+Built using HTML, CSS, JS:
 
-📍 Key visualizations include:
+📝 Engaging form inputs (dropdowns, sliders, checkboxes)
 
-Anxiety vs Depression heatmap
+🎨 Soft pastel theme for calm UX
 
-Study satisfaction vs CGPA scatter plots
+💡 Instant feedback & wellness suggestions
 
-Financial concerns vs Isolation impact
+💻 Tech Stack
+Power BI | HTML | CSS | JavaScript | GitHub Pages
 
-Course workload & sleep deprivation insights
+🚀 Key Highlights
+✅ End-to-end solution: form → analysis → insights
 
-This dashboard offers actionable insights and can guide real-world mental health interventions.
+🧩 Extendable with Firebase / Python
 
-🧠 2. Interactive Survey Website (Frontend UI using HTML, CSS, JS)
-A responsive and visually appealing website was developed to:
+📌 Ideal for college use, hackathons, or mental health drives
 
-📝 Collect student inputs in a form-like structure instead of basic bars
+🔮 What’s Next?
+Login system & database integration
 
-✅ Use dropdowns, radio buttons, checkboxes, sliders, and more to make survey experience engaging
+ML-based wellness predictions
 
-🎯 Categorize inputs across Academic Pressure, Social Life, Sleep Patterns, Motivation, Counseling Need, etc.
-
-💡 Generate real-time recommendations based on answers to promote mental wellness
-
-💬 Provide user-friendly feedback with visual tips and a soft pastel UI theme
-
-🎨 Designed with a modern, accessible, and soothing UI color palette
-
-This system acts as the data collection front-end, which can easily integrate with back-end databases or connect directly to Power BI or Python pipelines for further analysis.
-
-🔧 Tech Stack Used
-Component	Technology Used
-Dashboard	Power BI Desktop
-Survey Frontend	HTML5, CSS3, JavaScript
-Design System	Custom CSS (soft pastel green theme)
-Hosting	GitHub Pages (optional)
-Version Control	Git & GitHub
-
-🎯 Key Highlights
-🚀 End-to-end project with data collection, analysis, and reporting
-
-🧑‍💻 Developed both UI/UX and analytical components independently
-
-🧩 Can be extended with Firebase, Node.js, or Python Flask for storing data
-
-📌 Ideal for colleges, mental health NGOs, or student support initiatives
-
-📂 Use Cases
-College-level mental health awareness campaigns
-
-Department-level data analytics projects
-
-Hackathons & internship project portfolios
-
-Research surveys on student psychology
+Mobile-first redesign with Tailwind
 
 📍 Future Enhancements
 🔐 Add login system for student and admin roles
