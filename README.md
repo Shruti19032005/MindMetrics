@@ -1,16 +1,82 @@
-<<<<<<< HEAD
-# React + Vite
+📊 Power BI Dashboard + 🖥️ Interactive Website (Frontend UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Project Overview
+This project is a comprehensive solution aimed at analyzing and improving the mental well-being of students by combining the power of data visualization with an interactive front-end survey platform. It was designed as part of a real-world academic and technical initiative to collect, analyze, and present psychological and academic stress-related insights for students.
 
-Currently, two official plugins are available:
+The project has two major components:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💡 1. Power BI Dashboard: Data-Driven Storytelling
+A dynamic and interactive Power BI dashboard was created using real or simulated student data to:
 
-## Expanding the ESLint configuration
+📈 Track key mental health indicators like anxiety, depression, burnout, stress levels
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# MindMetrics
->>>>>>> 3582957a7601fd0d28c725759a9d8a74845d1e9b
+📍 Use filters (e.g., year, gender, stream, sleep patterns) for custom drill-down insights
+
+📊 Represent risk scores using heatmaps, treemaps, pie charts, bar graphs, and decomposition trees
+
+📌 Enable decision-makers (teachers, counselors, management) to identify at-risk students quickly
+
+📍 Key visualizations include:
+
+Anxiety vs Depression heatmap
+
+Study satisfaction vs CGPA scatter plots
+
+Financial concerns vs Isolation impact
+
+Course workload & sleep deprivation insights
+
+This dashboard offers actionable insights and can guide real-world mental health interventions.
+
+🧠 2. Interactive Survey Website (Frontend UI using HTML, CSS, JS)
+A responsive and visually appealing website was developed to:
+
+📝 Collect student inputs in a form-like structure instead of basic bars
+
+✅ Use dropdowns, radio buttons, checkboxes, sliders, and more to make survey experience engaging
+
+🎯 Categorize inputs across Academic Pressure, Social Life, Sleep Patterns, Motivation, Counseling Need, etc.
+
+💡 Generate real-time recommendations based on answers to promote mental wellness
+
+💬 Provide user-friendly feedback with visual tips and a soft pastel UI theme
+
+🎨 Designed with a modern, accessible, and soothing UI color palette
+
+This system acts as the data collection front-end, which can easily integrate with back-end databases or connect directly to Power BI or Python pipelines for further analysis.
+
+🔧 Tech Stack Used
+Component	Technology Used
+Dashboard	Power BI Desktop
+Survey Frontend	HTML5, CSS3, JavaScript
+Design System	Custom CSS (soft pastel green theme)
+Hosting	GitHub Pages (optional)
+Version Control	Git & GitHub
+
+🎯 Key Highlights
+🚀 End-to-end project with data collection, analysis, and reporting
+
+🧑‍💻 Developed both UI/UX and analytical components independently
+
+🧩 Can be extended with Firebase, Node.js, or Python Flask for storing data
+
+📌 Ideal for colleges, mental health NGOs, or student support initiatives
+
+📂 Use Cases
+College-level mental health awareness campaigns
+
+Department-level data analytics projects
+
+Hackathons & internship project portfolios
+
+Research surveys on student psychology
+
+📍 Future Enhancements
+🔐 Add login system for student and admin roles
+
+📡 Connect frontend form to real-time database (Firebase, MongoDB, etc.)
+
+📲 Make fully mobile responsive using Tailwind or Bootstrap
+
+🤖 Add basic AI/ML model to predict mental wellness scores
+
