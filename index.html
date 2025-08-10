@@ -1,13 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MindMetrics — Student Mental Wellness</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    
+    <!-- LEFT PANEL -->
+    <section class="left-panel">
+      <header class="brand">
+        <img src="assets/logo.png" alt="MindMetrics" class="logo" />
+        <div>
+          <h1>MindMetrics</h1>
+          <p class="tagline">Understand • Support • Flourish</p>
+        </div>
+      </header>
+
+      <div class="hero-visual">
+        <svg viewBox="0 0 600 400" class="waves" aria-hidden="true">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#9EE0B2"/>
+              <stop offset="1" stop-color="#BCEAD5"/>
+            </linearGradient>
+          </defs>
+          <rect width="600" height="400" fill="url(#g)" rx="20" />
+        </svg>
+      </div>
+
+      <div class="summary-card glass">
+        <h3>Your Wellness Snapshot</h3>
+        <div id="statusBadge" class="status-badge">—</div>
+        <p id="statusDescription" class="subtle">
+          Complete the quick survey to get your personalized report and university recommendations.
+        </p>
+
+        <div class="mini-chart">
+          <canvas id="miniRadar" width="300" height="220" aria-label="Wellness Mini Chart"></canvas>
+        </div>
+      </div>
+
+      <footer class="left-footer">
+        <small>Designed for student wellbeing • MindMetrics</small>
+      </footer>
+    </section>
+
+    <!-- RIGHT PANEL -->
+    <section class="right-panel">
+      <div class="top-bar">
+        <div class="progress-wrap">
+          <div id="progressText">Question 1 / 20</div>
+          <div class="progress-bar">
+            <div id="progressFill"></div>
+          </div>
+        </div>
+      </div>
+
+      <form id="surveyForm" class="card glass">
+        <div id="questionArea" class="question-area"></div>
+
+        <div class="nav-buttons">
+          <button type="button" id="prevBtn" class="btn btn-ghost">← Prev</button>
+          <button type="button" id="nextBtn" class="btn btn-primary">Next →</button>
+        </div>
+      </form>
+
+      <div id="resultsPanel" class="card glass results" style="display:none;">
+        <h2>Results — MindMetrics Report</h2>
+
+        <div class="result-top">
+          <div class="result-left">
+            <h3 id="finalStatus">—</h3>
+            <p id="finalDesc" class="subtle">—</p>
+            <div class="score-pill">Wellness Score: <span id="avgScore">—</span></div>
+          </div>
+          <div class="result-right">
+            <canvas id="radarChart" width="420" height="320" aria-label="Wellness Radar Chart"></canvas>
+          </div>
+        </div>
+
+        <section class="recs">
+          <div class="student-recs">
+            <h4>Personal Recommendations</h4>
+            <ul id="studentRecList"></ul>
+          </div>
+          <div class="uni-recs">
+            <h4>Recommendations for University</h4>
+            <ul id="uniRecList"></ul>
+          </div>
+        </section>
+
+        <div class="final-actions">
+          <button id="retakeBtn" class="btn btn-ghost">Retake Survey</button>
+          <button id="downloadBtn" class="btn btn-primary">Download Report</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
