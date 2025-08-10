@@ -1,9 +1,5 @@
 
 <img width="1194" height="671" alt="Screenshot 2025-07-23 223732" src="https://github.com/user-attachments/assets/cb690cac-62a3-4bd0-baad-0c1c0a639c94" />
-<img width="272" height="565" alt="Screenshot 2025-07-23 221705" src="https://github.com/user-attachments/assets/e44b08c3-6cac-4fe8-93c2-854c5150b38a" />
-<img width="272" height="815" alt="Screenshot 2025-07-23 221729" src="https://github.com/user-attachments/assets/e1c074bb-31bc-48ce-ac07-f2ea3f7103dc" />
-<img width="272" height="815" alt="Screenshot 2025-07-23 221829" src="https://github.com/user-attachments/assets/51758e48-2e63-4afa-af83-bd8aae946012" />
-
 
 📊 Power BI Dashboard + 🖥️ Interactive Website (Frontend UI)
 
